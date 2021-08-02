@@ -1,0 +1,54 @@
+.like:before {
+  content: "\f164";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+}
+
+button.like {
+  border: none;
+}
+
+.watch:before {
+  content: "\f06e";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #000000;
+}
+
+.green:before {
+  content: "\f164";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #05a012;
+}
+
+.card {
+  width: 225px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border: 1px solid #939eb8;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.container-like {
+  display: flex;
+  align-items: center;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.active-user {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+  padding: 0 0 20px 0;
+}
