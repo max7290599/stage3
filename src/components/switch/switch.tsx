@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { InputModel } from '../../models/input-model';
+
 import './switch.scss';
 
 const Switch: React.FC<InputModel> = (props) => {

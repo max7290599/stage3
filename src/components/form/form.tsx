@@ -4,7 +4,8 @@ import { StateModel } from '../../models/input-model';
 import Checkbox from '../checkbox/checkbox';
 import Input from '../input/input';
 import Select from '../select/select';
-import Switch from '../switch/switch';
+import Switch from '../switch/switch'; 
+
 import './form.scss';
 
 const Form: React.FC<StateModel> = (props) => {
