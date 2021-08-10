@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { ArticlesProps } from '../../models/props';
 import Article from '../article/article';
 
-import './articles-field.scss';
+import './articles-field.css';
 
 const ArticlesField: FC<ArticlesProps> = (props) => {
   const { articles } = props;

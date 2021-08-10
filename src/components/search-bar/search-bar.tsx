@@ -4,7 +4,7 @@ import { Get200ArticlesModel } from '../../models/articles';
 import { GetApiProps } from '../../models/props';
 import axios from '../../server/api';
 
-// import './search-bar.scss';
+import './search-bar.css';
 
 const API_KEY = 'd369957caf7c4e9385f79aa13c0ac7b4';
 
@@ -34,15 +34,16 @@ const SearchBar: FC<GetApiProps> = (props): JSX.Element => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form-search" onSubmit={handleSubmit}>
       <input
+        className="input-search"
         type="text"
         placeholder="Искать здесь..."
         value={searchValue}
         onChange={handleChange}
         disabled={isLoading}
       />
-      <button className="search-btn" disabled={isLoading} type="submit">
+      <button className="btn-search" disabled={isLoading} type="submit">
         {isLoading ? 'Loading...' : 'Search'}
       </button>
     </form>

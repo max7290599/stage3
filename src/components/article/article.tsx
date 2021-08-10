@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { ArticleCardModel } from '../../models/articles';
 
-import './article.scss';
+import './article.css';
 
 const Article: FC<ArticleCardModel> = (props) => {
   const { article } = props;

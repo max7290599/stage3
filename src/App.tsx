@@ -5,7 +5,7 @@ import SearchBar from './components/search-bar/search-bar';
 import SortBy from './components/sort-by/sort-by';
 import { ArticlesModel } from './models/articles';
 
-import './styles.scss';
+import './styles.css';
 
 const App: FC = () => {
   const [pageSize, setPageSize] = useState<number>(20);

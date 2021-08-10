@@ -1,7 +1,7 @@
 import { ChangeEvent, FC, useEffect, useState } from 'react';
 import { PageProps } from '../../models/props';
 
-import './pagination.scss';
+import './pagination.css';
 
 const Pagination: FC<PageProps> = (props): JSX.Element => {
   const [artPage, setArtPage] = useState<number | string>('');
@@ -27,10 +27,11 @@ const Pagination: FC<PageProps> = (props): JSX.Element => {
   };
 
   return (
-    <div className="pagination">
-      <label htmlFor="pagination">
+    <div className="container-pagination">
+      <label className="label-pagination" htmlFor="pagination">
         Page:
         <input
+          className="input-pagination"
           type="text"
           value={artPage}
           onChange={(e: ChangeEvent<HTMLInputElement>) =>
@@ -38,9 +39,10 @@ const Pagination: FC<PageProps> = (props): JSX.Element => {
           }
         />
       </label>
-      <label htmlFor="pagination">
+      <label className="label-pagination" htmlFor="pagination">
         Page size:
         <input
+          className="input-pagination"
           type="text"
           value={countNews}
           onChange={(e: ChangeEvent<HTMLInputElement>) =>

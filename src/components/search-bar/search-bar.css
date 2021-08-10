@@ -1,0 +1,22 @@
+.form-search {
+  margin: 10px auto;
+  width: 37%;
+}
+
+.input-search {
+  border-radius: 10px;
+  height: 25px;
+  width: 75%;
+}
+
+.btn-search {
+  margin-left: -64px;
+  height: 27px;
+  width: 62px;
+  border-radius: 0 8px 8px 0;
+  border: none;
+  background: transparent;
+  border-left: 2px solid;
+  cursor: pointer;
+  background-color: #bbbbbb;
+}
