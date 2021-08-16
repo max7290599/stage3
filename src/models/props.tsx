@@ -23,3 +23,12 @@ export interface GetApiProps {
 export interface ArticlesProps {
   articles: ArticlesModel[];
 }
+
+export interface DetailsArticleState {
+  setDetailsArticle(value: ArticlesModel[]): void;
+}
+
+export interface DetailsArticleProps {
+  articles: ArticlesModel[];
+  cardId: string;
+}

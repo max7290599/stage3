@@ -1,37 +1,34 @@
-import { FC, useState } from 'react';
-import ArticlesField from './components/articles-field/articles-field';
-import Pagination from './components/pagination/pagination';
-import SearchBar from './components/search-bar/search-bar';
-import SortBy from './components/sort-by/sort-by';
-import { ArticlesModel } from './models/articles';
+import { FC, Suspense } from 'react';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { Route, Switch, useLocation } from 'react-router-dom';
+import Header from './components/header/header';
+import Home from './page/home';
+import About from './page/about';
+import ErrorPage from './page/error-page';
+import Details from './page/details';
 
 import './styles.css';
 
 const App: FC = () => {
-  const [pageSize, setPageSize] = useState<number>(20);
-  const [page, setPage] = useState<number>(1);
-  const [sort, setSortBy] = useState<string>('publishedAt');
-  const [articles, setArticles] = useState<ArticlesModel[]>([]);
-  const [allPage, setAllPage] = useState<number>(1);
+  const location = useLocation();
 
   return (
     <>
-      <SearchBar
-        pageSize={pageSize}
-        setArticles={setArticles}
-        sort={sort}
-        page={page}
-        setAllPage={setAllPage}
-      />
-      <SortBy setSortBy={setSortBy} />
-      <ArticlesField articles={articles} />
-      <Pagination
-        pageSize={pageSize}
-        setPageSize={setPageSize}
-        setPage={setPage}
-        page={page}
-        allPage={allPage}
-      />
+      <Header />
+      <Suspense fallback={<div>Loading...</div>}>
+        <TransitionGroup>
+          <CSSTransition timeout={300} classNames="fade" key={location.key} unmountOnExit>
+            <Switch location={location}>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route exact path="/about" component={About} />
+              <Route path="/details/:id" component={Details} />
+              <Route path="*" component={ErrorPage} />
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
+      </Suspense>
     </>
   );
 };

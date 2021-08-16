@@ -1,0 +1,25 @@
+.menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.link {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #5757a0;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lavender;
+  border-bottom: 5px solid #5757a0;
+  margin: 0 2px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.active {
+  color: #e68e0b;
+  border-bottom: 5px solid#e68e0b;
+}
