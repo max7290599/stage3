@@ -27,9 +27,9 @@ const Details: FC = (): JSX.Element => {
 
   useEffect(() => {
     getNewS();
-  }, []);
+  },[]);
 
-  let content: JSX.Element = isLoading ? (
+  const content: JSX.Element = isLoading ? (
     <div>Loading...</div>
   ) : (
     <div className="article">

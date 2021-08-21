@@ -23,7 +23,12 @@ const Pagination: FC<PaginationProps> = (props): JSX.Element => {
 
   const keyPress = (event: React.KeyboardEvent<HTMLInputElement>): void => {
     if (event.key === 'Enter') {
-      dispatch(getParamNews(event.target.name, event.target.value));
+      dispatch(
+        getParamNews(
+          (event.target as HTMLInputElement).name,
+          (event.target as HTMLInputElement).value,
+        ),
+      );
       props.getNews();
     }
   };
