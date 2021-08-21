@@ -1,15 +1,7 @@
 import { ArticlesModel } from './articles';
 
 export interface SortByProps {
-  setSortBy(value: string): void;
-}
-
-export interface PageProps {
-  setPage(value: number): void;
-  page: number;
-  allPage: number;
-  pageSize: number;
-  setPageSize(value: number): void;
+  getNews(): Promise<void>;
 }
 
 export interface GetApiProps {
@@ -31,4 +23,11 @@ export interface DetailsArticleState {
 export interface DetailsArticleProps {
   articles: ArticlesModel[];
   cardId: string;
+}
+
+export interface PaginationProps {
+  getNews(): Promise<void>;
+  page: number;
+  pageSize: number;
+  totalResults: number;
 }

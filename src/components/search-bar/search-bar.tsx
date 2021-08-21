@@ -1,36 +1,23 @@
-import { AxiosResponse } from 'axios';
-import { ChangeEvent, FC, useState } from 'react';
-import { Get200ArticlesModel } from '../../models/articles';
-import { GetApiProps } from '../../models/props';
-import axios from '../../server/api';
+import { ChangeEvent, FC } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { StoreModel } from '../../models/store';
+import { getParamNews } from '../../redux/action';
+import { SortByProps } from '../../models/props';
 
 import './search-bar.css';
 
-const API_KEY = 'd369957caf7c4e9385f79aa13c0ac7b4';
-
-const SearchBar: FC<GetApiProps> = (props): JSX.Element => {
-  const [searchValue, setSearchValue] = useState<string>('');
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+const SearchBar: FC<SortByProps> = (props): JSX.Element => {
+  const dispatch = useDispatch();
+  const isLoading = useSelector((state: StoreModel) => state.isLoading);
 
   const handleSubmit = async (e: ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setIsLoading(true);
-    try {
-      const response: AxiosResponse<Get200ArticlesModel> = await axios.get(
-        `v2/everything?q=${searchValue}&sortBy=${props.sort}&page=${props.page}&pageSize=${props.pageSize}&apiKey=${API_KEY}`,
-      );
-      props.setArticles(response.data.articles);
-      props.setAllPage(response.data.totalResults);
-    } catch (error) {
-      console.error(error);
-    } finally {
-      setIsLoading(false);
-    }
+    props.getNews();
   };
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { value } = e.target;
-    setSearchValue(value);
+    dispatch(getParamNews('searchValue', value));
   };
 
   return (
@@ -39,7 +26,6 @@ const SearchBar: FC<GetApiProps> = (props): JSX.Element => {
         className="input-search"
         type="text"
         placeholder="Искать здесь..."
-        value={searchValue}
         onChange={handleChange}
         disabled={isLoading}
       />

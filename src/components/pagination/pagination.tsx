@@ -1,28 +1,30 @@
-import { ChangeEvent, FC, useEffect, useState } from 'react';
-import { PageProps } from '../../models/props';
+import { ChangeEvent, FC } from 'react';
+import { useDispatch } from 'react-redux';
+import { PaginationProps } from '../../models/props';
+import { getParamNews } from '../../redux/action';
 
 import './pagination.css';
 
-const Pagination: FC<PageProps> = (props): JSX.Element => {
-  const [artPage, setArtPage] = useState<number | string>('');
-  const [countNews, setCountNews] = useState<number | string>('');
-  const { page, allPage, pageSize } = props;
+const Pagination: FC<PaginationProps> = (props): JSX.Element => {
+  const dispatch = useDispatch();
+  const { page, pageSize, totalResults } = props;
 
-  useEffect(() => {
-    setArtPage(page);
-    setCountNews(pageSize);
-  }, [page, pageSize]);
-
-  const handleChange = (e: ChangeEvent<HTMLInputElement>, setPropsPage: any, setInputPage: any) => {
-    const { value } = e.target;
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    const { value, name } = e.target;
     const regex = /\d+/;
     const matchedValue = value.match(regex);
     if (matchedValue) {
       const newValue = +matchedValue[0];
-      setPropsPage(newValue);
-      setInputPage(newValue);
+      dispatch(getParamNews(name, newValue));
     } else {
-      setInputPage('');
+      dispatch(getParamNews(name, ''));
+    }
+  };
+
+  const keyPress = (event: React.KeyboardEvent<HTMLInputElement>): void => {
+    if (event.key === 'Enter') {
+      dispatch(getParamNews(event.target.name, event.target.value));
+      props.getNews();
     }
   };
 
@@ -32,25 +34,33 @@ const Pagination: FC<PageProps> = (props): JSX.Element => {
         Page:
         <input
           className="input-pagination"
-          type="text"
-          value={artPage}
-          onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            handleChange(e, props.setPage, setArtPage)
-          }
+          type="number"
+          name="page"
+          value={page}
+          onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange(e)}
+          onKeyDown={(event: React.KeyboardEvent<HTMLInputElement>) => keyPress(event)}
+          onBlur={(e) => {
+            dispatch(getParamNews(e.target.name, e.target.value));
+            props.getNews();
+          }}
         />
       </label>
       <label className="label-pagination" htmlFor="pagination">
         Page size:
         <input
           className="input-pagination"
-          type="text"
-          value={countNews}
-          onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            handleChange(e, props.setPageSize, setCountNews)
-          }
+          type="number"
+          name="pageSize"
+          value={pageSize}
+          onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange(e)}
+          onKeyDown={(event: React.KeyboardEvent<HTMLInputElement>) => keyPress(event)}
+          onBlur={(e) => {
+            dispatch(getParamNews(e.target.name, e.target.value));
+            props.getNews();
+          }}
         />
       </label>
-      <h2>All pages: {Math.ceil(allPage / +countNews)}</h2>
+      <h2>All pages: {Math.ceil(totalResults / +pageSize)}</h2>
     </div>
   );
 };

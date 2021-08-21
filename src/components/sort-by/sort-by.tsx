@@ -1,11 +1,16 @@
 import { ChangeEvent, FC } from 'react';
+import { useDispatch } from 'react-redux';
 import { SortByProps } from '../../models/props';
+import { getParamNews } from '../../redux/action';
 
 import './sort-by.css';
 
 const SortBy: FC<SortByProps> = (props): JSX.Element => {
+  const dispatch = useDispatch();
+
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    props.setSortBy(e.target.value);
+    dispatch(getParamNews(e.target.name, e.target.value));
+    props.getNews();
   };
 
   return (
@@ -17,7 +22,7 @@ const SortBy: FC<SortByProps> = (props): JSX.Element => {
             className="input-sort"
             type="radio"
             value="relevancy"
-            name="sort-by"
+            name="sortBy"
             onChange={handleChange}
           />
           <span>Relevancy</span>
@@ -27,7 +32,7 @@ const SortBy: FC<SortByProps> = (props): JSX.Element => {
             className="input-sort"
             type="radio"
             value="popularity"
-            name="sort-by"
+            name="sortBy"
             onChange={handleChange}
           />
           <span>Popularity</span>
@@ -37,7 +42,7 @@ const SortBy: FC<SortByProps> = (props): JSX.Element => {
             className="input-sort"
             type="radio"
             value="publishedAt"
-            name="sort-by"
+            name="sortBy"
             onChange={handleChange}
           />
           <span>Published</span>
