@@ -7,19 +7,9 @@ import {
   REQUEST_NEWS,
 } from './types';
 
-const initialState: StoreModel = {
+export const initialState: StoreModel = {
   isLoading: false,
-  articles: [
-    {
-      author: '',
-      title: '',
-      url: '',
-      urlToImage: '',
-      publishedAt: '',
-      content: '',
-      description: '',
-    },
-  ],
+  articles: [],
   page: 1,
   sortBy: 'relevancy',
   pageSize: 20,

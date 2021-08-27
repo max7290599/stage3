@@ -21,6 +21,7 @@ const SortBy: FC<SortByProps> = (props): JSX.Element => {
           <input
             className="input-sort"
             type="radio"
+            data-testid="relevancy"
             value="relevancy"
             name="sortBy"
             onChange={handleChange}
@@ -31,6 +32,7 @@ const SortBy: FC<SortByProps> = (props): JSX.Element => {
           <input
             className="input-sort"
             type="radio"
+            data-testid="popularity"
             value="popularity"
             name="sortBy"
             onChange={handleChange}
@@ -42,6 +44,7 @@ const SortBy: FC<SortByProps> = (props): JSX.Element => {
             className="input-sort"
             type="radio"
             value="publishedAt"
+            data-testid="publishedAt"
             name="sortBy"
             onChange={handleChange}
           />

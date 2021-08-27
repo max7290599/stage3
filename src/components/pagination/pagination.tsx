@@ -39,8 +39,9 @@ const Pagination: FC<PaginationProps> = (props): JSX.Element => {
         Page:
         <input
           className="input-pagination"
-          type="number"
+          type="text"
           name="page"
+          data-testid="page"
           value={page}
           onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange(e)}
           onKeyDown={(event: React.KeyboardEvent<HTMLInputElement>) => keyPress(event)}
@@ -54,8 +55,9 @@ const Pagination: FC<PaginationProps> = (props): JSX.Element => {
         Page size:
         <input
           className="input-pagination"
-          type="number"
+          type="text"
           name="pageSize"
+          data-testid="pageSize"
           value={pageSize}
           onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange(e)}
           onKeyDown={(event: React.KeyboardEvent<HTMLInputElement>) => keyPress(event)}

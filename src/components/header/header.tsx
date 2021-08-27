@@ -7,13 +7,13 @@ const Header: FC = (): JSX.Element => {
   return (
     <div>
       <nav>
-        <ul className="menu">
-          <li>
+        <ul className="menu" data-testid="menu">
+          <li data-testid="menu-item">
             <NavLink className="link" exact activeClassName="active" to="/">
               Home
             </NavLink>
           </li>
-          <li>
+          <li data-testid="menu-item">
             <NavLink className="link" exact activeClassName="active" to="/about">
               About
             </NavLink>

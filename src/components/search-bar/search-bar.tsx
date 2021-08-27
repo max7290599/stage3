@@ -25,11 +25,12 @@ const SearchBar: FC<SortByProps> = (props): JSX.Element => {
       <input
         className="input-search"
         type="text"
+        data-testid="search"
         placeholder="Искать здесь..."
         onChange={handleChange}
         disabled={isLoading}
       />
-      <button className="btn-search" disabled={isLoading} type="submit">
+      <button data-testid="btn-search" className="btn-search" disabled={isLoading} type="submit">
         {isLoading ? 'Loading...' : 'Search'}
       </button>
     </form>

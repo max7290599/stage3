@@ -1,5 +1,5 @@
 import { AxiosResponse } from 'axios';
-import { FC, useEffect, useState } from 'react';
+import { FC, useCallback, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { ArticlesModel, Get200ArticlesModel } from '../models/articles';
 import axios from '../server/api';
@@ -11,7 +11,7 @@ const Details: FC = (): JSX.Element => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const { id } = useParams<{ id: string }>();
 
-  const getNewS = async (): Promise<void> => {
+  const getNewS = useCallback(async (): Promise<void> => {
     setIsLoading(true);
     try {
       const response: AxiosResponse<Get200ArticlesModel> = await axios.get(
@@ -23,11 +23,11 @@ const Details: FC = (): JSX.Element => {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [id]);
 
   useEffect(() => {
     getNewS();
-  },[]);
+  }, [getNewS]);
 
   const content: JSX.Element = isLoading ? (
     <div>Loading...</div>

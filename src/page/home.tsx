@@ -12,7 +12,7 @@ import { fetchNews, receiveNews, getTotalResultsNews, failGettingNews } from '..
 
 const API_KEY = 'd369957caf7c4e9385f79aa13c0ac7b4';
 
-const Home: FC = () => {
+const Home: FC = (): JSX.Element => {
   const articles = useSelector((state: StoreModel) => state.articles);
   const searchValue = useSelector((state: StoreModel) => state.searchValue);
   const sortBy = useSelector((state: StoreModel) => state.sortBy);
@@ -38,12 +38,12 @@ const Home: FC = () => {
   };
 
   return (
-    <div>
+    <>
       <SearchBar getNews={getNews} />
       <SortBy getNews={getNews} />
       <ArticlesField articles={articles} />
       <Pagination totalResults={totalResults} pageSize={pageSize} page={page} getNews={getNews} />
-    </div>
+    </>
   );
 };
 

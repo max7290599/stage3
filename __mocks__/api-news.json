@@ -1,0 +1,206 @@
+{
+  "status": "ok",
+  "totalResults": 18870,
+  "articles": [
+    {
+      "source": { "id": null, "name": "Xkcd.com" },
+      "author": "About",
+      "title": "Universal Seat Belt",
+      "description": null,
+      "url": "https://xkcd.com/2495/",
+      "urlToImage": "https://imgs.xkcd.com/comics/universal_seat_belt_2x.png",
+      "publishedAt": "2021-07-28T04:00:00Z",
+      "content": "This work is licensed under a\r\nCreative Commons Attribution-NonCommercial 2.5 License.\r\nThis means you're free to copy and share these comics (but not to sell them). More details."
+    },
+    {
+      "source": { "id": null, "name": "New York Times" },
+      "author": "Jonathan Weisman and Alan Rappeport",
+      "title": "As Infrastructure Bill Nears Key Vote, Deficit Takes Back Seat",
+      "description": "Many Republicans are disregarding the deficit impact for the sprawling infrastructure bill, but intend to change course for looming battles on social spending and the debt ceiling.",
+      "url": "https://www.nytimes.com/2021/08/06/us/politics/infrastructure-budget-deficit.html",
+      "urlToImage": "https://static01.nyt.com/images/2021/08/06/us/politics/06dc-deficit1/06dc-deficit1-facebookJumbo.jpg",
+      "publishedAt": "2021-08-06T22:01:19Z",
+      "content": "Mr. McConnell has threatened to withhold all Republican votes from a debt ceiling increase, a stance that Mr. Hollen called part of a pattern of hypocrisy. Republicans repeatedly raised the debt ceil… [+1884 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Analysis by Chris Cillizza, CNN Editor-at-large",
+      "title": "Analysis: There's a fight for the future of the Democratic Party happening in Ohio",
+      "description": "No matter who wins the Democratic nomination in Ohio's 11th District Tuesday night, there's an almost 0% chance of the seat being in any danger to a Republican takeover next fall.",
+      "url": "https://www.cnn.com/2021/08/03/politics/ohio-11-democratic-primary-nina-turner-shontel-brown/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210110164405-nina-turner-democratic-candidate-ohio-house-seat-super-tease.jpg",
+      "publishedAt": "2021-08-03T22:30:42Z",
+      "content": "THE POINT -- NOW ON YOUTUBE! \r\nIn each episode of his weekly YouTube show, Chris Cillizza will delve a little deeper into the surreal world of politics. Click to subscribe!"
+    },
+    {
+      "source": { "id": null, "name": "Gizmodo.com" },
+      "author": "Brianna Provenzano",
+      "title": "OnlyFans Has a New Free Streaming App With No Nudity",
+      "description": "OnlyFans—the subscription-based platform that provides a direct link between adult content creators and customers—has begun promoting its first app, but says the NSFW content that the platform has become known for will be taking a back seat for now.Read more.…",
+      "url": "https://gizmodo.com/onlyfans-has-a-new-free-streaming-app-with-no-nudity-1847501360",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/fd935bed300e7e0d8ab0e7f3033f88dc.png",
+      "publishedAt": "2021-08-17T16:20:00Z",
+      "content": "OnlyFansthe subscription-based platform that provides a direct link between adult content creators and customershas begun promoting its first app, but says the NSFW content that the platform has beco… [+2199 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Reuters",
+      "title": "Ryanair hits back at Italian authority over seat surcharges - Reuters",
+      "description": "Budget airline Ryanair <a href=\"https://www.reuters.com/companies/RYA.I\" target=\"_blank\">(RYA.I)</a> has hit back at Italy's civil aviation authority ENAC in a dispute over extra fees for seats assigned to adults accompanying minors and disabled people, sayin…",
+      "url": "https://www.reuters.com/business/aerospace-defense/ryanair-hits-back-italian-authority-over-seat-surcharges-2021-08-18/",
+      "urlToImage": "https://www.reuters.com/resizer/AguvzhJUG0HzWvK_4y2z423C6ZQ=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/TJCKL6I3Q5NLBKQUUDAZFI3KL4.jpg",
+      "publishedAt": "2021-08-18T16:40:00Z",
+      "content": "A Ryanair Boeing 737-800 aircraft approaches Paris-Beauvais airport in Tille, northern France, September 27, 2018. REUTERS/Christian Hartmann/File PhotoMILAN, Aug 18 (Reuters) - Budget airline Ryanai… [+2110 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Daniel Wiessner",
+      "title": "Senate approves union lawyer Wilcox for NLRB seat - Reuters",
+      "description": "The U.S. Senate on Wednesday confirmed veteran union lawyer Gwynne Wilcox to a seat on the National Labor Relations Board, making her the first Black woman to serve on the board and pushing the agency closer to a Democratic majority.",
+      "url": "https://www.reuters.com/legal/legalindustry/senate-approves-union-lawyer-wilcox-nlrb-seat-2021-07-28/",
+      "urlToImage": "https://www.reuters.com/resizer/m58p_k3gq44MF5Y4PCLBvIzljC0=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/TTYDUKTV5RMB5NC7REI5Y5FY2A.jpg",
+      "publishedAt": "2021-07-28T20:19:00Z",
+      "content": "The seal of the National Labor Relations Board (NLRB) is seen at their headquarters in Washington, D.C., U.S., May 14, 2021. REUTERS/Andrew Kelly(Reuters) - The U.S. Senate on Wednesday confirmed vet… [+2553 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Reuters",
+      "title": "Frontier Airlines passenger taped to seat, arrested after altercation - Reuters",
+      "description": "A Frontier Airlines passenger accused of groping two flight attendants and punching a third on a flight from Philadelphia to Miami was taped to his seat for the duration of the flight and arrested on landing, NBC News reported on Tuesday.",
+      "url": "https://www.reuters.com/world/us/frontier-airlines-passenger-taped-seat-arrested-after-altercation-2021-08-03/",
+      "urlToImage": "https://www.reuters.com/resizer/LvZhOVCjotx-y7Np5vcGMO2zkZg=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/CCNWFM6KBFIFZKNXSPXALHHUQE.jpg",
+      "publishedAt": "2021-08-03T23:47:00Z",
+      "content": "Aug 3 (Reuters) - A Frontier Airlines passenger accused of groping two flight attendants and punching a third on a flight from Philadelphia to Miami was taped to his seat for the duration of the flig… [+876 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Guardian" },
+      "author": "PA Media",
+      "title": "Woman raped in Berkshire layby after stopping for child seat",
+      "description": "Police investigate whether empty child car seat was left by road to lure victim into laybyA driver was raped after she stopped to check if a child was safe after spotting an empty car seat in a layby, police have said.Thames Valley police said the woman was r…",
+      "url": "https://amp.theguardian.com/society/2021/aug/21/woman-raped-in-berkshire-layby-after-stopping-for-child-seat",
+      "urlToImage": "https://i.guim.co.uk/img/media/c59230cbf8c3c4699bcfefe376a0b9526a255336/0_181_3424_2054/master/3424.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=883fbac7ca37aafb1c77e219ae3291f7",
+      "publishedAt": "2021-08-21T15:37:10Z",
+      "content": "A driver was raped after she stopped to check if a child was safe after spotting an empty car seat in a layby, police have said.\r\nThames Valley police said the woman was raped in a layby on the A4 in… [+1888 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Entrepreneur" },
+      "author": "Entrepreneur Staff",
+      "title": "Virgin Galactic Restarts Ticket Sales at $450,000 Per Seat",
+      "description": "Virgin Galactic is re-opening ticket sales to people who want to take a ride on its rocket-powered suborbital space plane.",
+      "url": "https://www.entrepreneur.com/article/379545",
+      "urlToImage": "https://assets.entrepreneur.com/content/3x2/2000/1628257087-GettyImages-1233924581.jpg",
+      "publishedAt": "2021-08-06T13:38:25Z",
+      "content": "August\r\n6, 2021\r\n1 min read\r\nFor the first time in years, Virgin Galactic is re-opening ticket sales to people who want to take a ride on its rocket-powered suborbital space plane.\r\nThe trip will cos… [+1013 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Brendan Pierson",
+      "title": "Full D.C. Circuit asked to hear challenge to infant bath seat rule - Reuters",
+      "description": "A mother has asked the full D.C. Circuit U.S. Court of Appeals to revive her challenge to a recent Consumer Product Safety Commission standard for infant bath seats on the grounds that the standard was not made available to the public and that a panel wrongly…",
+      "url": "https://www.reuters.com/legal/litigation/full-dc-circuit-asked-hear-challenge-infant-bath-seat-rule-2021-08-17/",
+      "urlToImage": "https://www.reuters.com/resizer/ka1W6IzBeDdlSDJ9yIKkI5UgP4k=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/EFHJTMP7WVJ5ZBGV3HGE2O6TXE.jpg",
+      "publishedAt": "2021-08-17T18:00:00Z",
+      "content": "Signage is seen outside of the U.S. Consumer Product Safety Commission in Rockville, Maryland. REUTERS/Andrew KellyThe company and law firm names shown above are generated automatically based on the … [+3361 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Jason Lange",
+      "title": "Moderate Democrat Conor Lamb of Pennsylvania sets sights on U.S. Senate seat - Reuters",
+      "description": "U.S. Representative Conor Lamb, a moderate Democrat with a track record of winning districts with large numbers of conservative voters, on Friday launched a bid for the U.S. Senate seat in Pennsylvania held by retiring Republican Senator Pat Toomey.",
+      "url": "https://www.reuters.com/world/us/moderate-democrat-conor-lamb-pennsylvania-sets-sights-us-senate-seat-2021-08-06/",
+      "urlToImage": "https://www.reuters.com/resizer/IYeothelE0vN5_8sPGOpG3-DLdA=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/U2FX5UB2BJLNTA55LBTDKTKDIE.jpg",
+      "publishedAt": "2021-08-06T15:53:00Z",
+      "content": "U.S. Democratic congressional candidate Conor Lamb speaks during his election night rally in Pennsylvania's 18th U.S. Congressional district special election against Republican candidate and State Re… [+3058 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Reuters",
+      "title": "Wood and Curran put England in box seat against India - Reuters",
+      "description": "Mark Wood struck twice in two overs and Sam Curran claimed the prize wicket of India captain Virat Kohli to put England in the box seat on day four of the second test at Lord's on Sunday.",
+      "url": "https://www.reuters.com/world/india/wood-curran-put-england-box-seat-against-india-2021-08-15/",
+      "urlToImage": "https://www.reuters.com/resizer/0b711dwfmSsZgMXmKsNK7EEmv1E=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/L4LVIRFEENNMLO3IP26SIW7CLY.jpg",
+      "publishedAt": "2021-08-15T12:26:00Z",
+      "content": "Cricket - Second Test - England v India - Lord's Cricket Ground, London, Britain - August 15, 2021 England's Mark Wood celebrates after taking the wicket of India's Rohit Sharma Action Images via Reu… [+1785 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Reuters",
+      "title": "Democrat Amy Finkenauer sets sights on Senator Grassley's Iowa seat - Reuters",
+      "description": "Democrat Abby Finkenauer, who was one of the youngest women in Congress before losing her re-election bid last year, on Thursday said she would run for the Iowa U.S. Senate seat currently held by Republican Chuck Grassley.",
+      "url": "https://www.reuters.com/world/us/democrat-amy-finkenauer-sets-sights-senator-grassleys-iowa-seat-2021-07-22/",
+      "urlToImage": "https://www.reuters.com/resizer/NVEyU9fiFx6Aaq5YSMbPwhQVMMQ=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/47TN5LSL2NJNDMALS55CWF3GPI.jpg",
+      "publishedAt": "2021-07-22T17:19:00Z",
+      "content": "Rep. Abby Finkenauer (D-IA) poses with Speaker of the House Nancy Pelosi (D-CA) for a ceremonial swearing-in picture on Capitol Hill in Washington, U.S., January 3, 2019. REUTERS/Joshua Roberts/File … [+1188 chars]"
+    },
+    {
+      "source": { "id": null, "name": "New York Times" },
+      "author": "Adam Nagourney",
+      "title": "‘The Opposite of Airlines’: When Larger Audiences Require Fewer Seats",
+      "description": "Yes, the comfy chair. The War Memorial Opera House in San Francisco put in roomier seats just in time to try to lure audiences back from the couches they got used to during the shutdown.",
+      "url": "https://www.nytimes.com/2021/08/20/arts/music/bigger-seats-san-francisco-opera.html",
+      "urlToImage": "https://static01.nyt.com/images/2021/08/17/arts/00biggerseats-1/00biggerseats-1-facebookJumbo.jpg",
+      "publishedAt": "2021-08-20T16:22:50Z",
+      "content": "The old seats at the War Memorial had become vintage relics, thick with faded cushioning and challenging to climb out of, a particular concern to the opera crowd, which tends to skew older.\r\nLike tho… [+1555 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Boing Boing" },
+      "author": "Carla Sinclair",
+      "title": "Frontier Airlines duct-taped an unruly man to his seat",
+      "description": "A belligerent gentleman caused such a scene on a Frontier Airlines flight from Philadelphia to Miami, flight attendants were forced to duct tape him to his seat.\n\n\n\nThe Ohio passenger, 22-year-old Maxwell Berry, is accused of groping two women flight attendan…",
+      "url": "https://boingboing.net/2021/08/03/frontier-airlines-duct-taped-an-unruly-man-to-his-seat.html",
+      "urlToImage": "https://i2.wp.com/boingboing.net/wp-content/uploads/2021/08/1280px-N308FR_Frontier_Airlines_Airbus_A320-251N_s-n_7538__FLO_The_Flamingo__27802201609.jpg?fit=1200%2C631&ssl=1",
+      "publishedAt": "2021-08-03T13:41:32Z",
+      "content": "A belligerent gentleman caused such a scene on a Frontier Airlines flight from Philadelphia to Miami, flight attendants were forced to duct tape him to his seat.\r\nThe Ohio passenger, 22-year-old Maxw… [+1626 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Pamela Barbaglia",
+      "title": "Barclays elevates M&A veteran Colizzi to new role in continental Europe - Reuters",
+      "description": "Barclays has elevated one of its most senior M&A bankers, Pier Luigi Colizzi, to lead its investment banking business in continental Europe while also giving him a seat on its Europe executive committee, according to a statement on Wednesday.",
+      "url": "https://www.reuters.com/article/us-barclays-colizzi-moves-idUSKBN2ER142",
+      "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210721&t=2&i=1569518402&r=LYNXMPEH6K0MX&w=800",
+      "publishedAt": "2021-07-21T11:11:00Z",
+      "content": "LONDON (Reuters) -Barclays has elevated one of its most senior M&amp;A bankers, Pier Luigi Colizzi, to lead its investment banking business in continental Europe while also giving him a seat on its E… [+2308 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Reuters",
+      "title": "U.S. State Department to investigate swastika carved into elevator - Reuters",
+      "description": "A swastika was found carved into the wall of a U.S. State Department elevator, a spokeswoman said on Tuesday, prompting an investigation into how the symbol of Nazi hate ended up in the seat of American diplomacy.",
+      "url": "https://www.reuters.com/world/us/us-state-department-investigate-swastika-carved-into-elevator-2021-07-27/",
+      "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=48",
+      "publishedAt": "2021-07-27T19:34:00Z",
+      "content": "WASHINGTON, July 27 (Reuters) - A swastika was found carved into the wall of a U.S. State Department elevator, a spokeswoman said on Tuesday, prompting an investigation into how the symbol of Nazi ha… [+1301 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Guardian" },
+      "author": "Ali Martin at Lord's",
+      "title": "Root and Burns steady England ship but India remain in driving seat",
+      "description": "<ul><li>India 364 lead England 119-3 by 245 runs</li><li>England bowlers enjoy successful morning</li></ul>The door to the England dressing room had barely swung shut by the time Haseeb Hameed found himself walking back through it, his return to Test cricket …",
+      "url": "https://amp.theguardian.com/sport/2021/aug/13/englalnd-india-second-test-day-two-match-report",
+      "urlToImage": "https://i.guim.co.uk/img/media/968fdebe458590ee794c082e53c1e2c2ce90e41e/0_168_5568_3341/master/5568.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7fe2e1046257b4e2c8747172e19c5772",
+      "publishedAt": "2021-08-13T18:02:17Z",
+      "content": "The door to the England dressing room had barely swung shut by the time Haseeb Hameed found himself walking back through it, his return to Test cricket after a five-year absence having been spectacul… [+4964 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CNET" },
+      "author": "Abrar Al-Heeti",
+      "title": "Virgin Galactic tickets on sale once again, starting at $450K a seat - CNET",
+      "description": "The company also announces that its next \"revenue-generating\" spaceflight, Unity 23, is slated for late September.",
+      "url": "https://www.cnet.com/news/virgin-galactic-tickets-on-sale-once-again-starting-at-450k-a-seat/",
+      "urlToImage": "https://www.cnet.com/a/img/5vmbWg1dn0kh70o3ctC1BCmfOJc=/1200x630/2020/11/16/3cac18ad-d287-485f-a1bc-55a9a3e8b2ba/virgin-galactic-cio-1280x720.jpg",
+      "publishedAt": "2021-08-05T21:33:00Z",
+      "content": "Virgin Galactic is ready to take passengers to space -- for a hefty price.\r\nVirgin Galactic\r\nRichard Branson's aerospace and space travel company, Virgin Galactic, has reopened ticket sales for its S… [+1183 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Jonathan Barrett,Colin Packham",
+      "title": "Locked-up and fed-up: Australian voters put prime minister on notice - Reuters Australia",
+      "description": "Kathy Chalker, a Sydney art studio owner, is just the sort of voter Australian Prime Minister Scott Morrison needs to win the country's next election - a long-time conservative party supporter with a small business in a swing seat.",
+      "url": "https://www.reuters.com/world/asia-pacific/locked-up-fed-up-australian-voters-put-prime-minister-notice-2021-08-19/",
+      "urlToImage": "https://www.reuters.com/resizer/uRhMsq9caR5u4J_msTo6CrWI7y8=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XJWBGZPHORP3RE3G54CMLCEHQI.jpg",
+      "publishedAt": "2021-08-19T22:16:00Z",
+      "content": "Australian Prime Minister Scott Morrison leaves Downing Street in London, Britain, June 15, 2021. REUTERS/Henry NichollsSYDNEY, Aug 20 (Reuters) - Kathy Chalker, a Sydney art studio owner, is just th… [+4955 chars]"
+    }
+  ]
+}
