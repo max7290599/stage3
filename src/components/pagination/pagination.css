@@ -1,0 +1,17 @@
+.container-pagination {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-around;
+}
+
+.label-pagination {
+  font-size: 20px;
+}
+
+.input-pagination {
+  width: 50px;
+  border: none;
+  border-bottom: 1px solid #bd672a70;
+  font-size: 15px;
+}

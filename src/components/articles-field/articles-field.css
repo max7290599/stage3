@@ -1,0 +1,43 @@
+.cards-field {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0 0 0;
+}
+
+.article {
+  width: 500px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border: 1px solid #939eb8;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.container-like {
+  display: flex;
+  align-items: center;
+}
+
+.article-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 21px;
+}
+
+.container-author {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+
+.container-author span {
+  font-weight: 900;
+}
