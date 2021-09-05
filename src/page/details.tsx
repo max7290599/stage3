@@ -1,5 +1,5 @@
 import { AxiosResponse } from 'axios';
-import { FC, useEffect, useState } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { ArticlesModel, Get200ArticlesModel } from '../models/articles';
 import axios from '../server/api';

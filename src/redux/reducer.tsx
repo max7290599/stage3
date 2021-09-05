@@ -7,7 +7,7 @@ import {
   REQUEST_NEWS,
 } from './types';
 
-const initialState: StoreModel = {
+export const initialState: StoreModel = {
   isLoading: false,
   articles: [
     {

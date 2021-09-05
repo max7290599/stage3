@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 import { NavLink } from 'react-router-dom';
 import { ArticlesProps } from '../../models/props';
 
@@ -8,9 +8,8 @@ const ArticlesField: FC<ArticlesProps> = (props) => {
   const { articles } = props;
   return (
     <div className="cards-field">
-      {articles[0].author === ''
-        ? ''
-        : articles.map((article, i) => (
+      {articles?.[0].title &&
+        articles.map((article, i) => (
             <div className="article" key={i.toString()}>
               <h2 className="title">{article.title}</h2>
               <img alt="" className="article-img" src={article.urlToImage} />

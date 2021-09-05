@@ -1,4 +1,4 @@
-import { FC, Suspense } from 'react';
+import React, { FC, Suspense } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { Route, Switch, useLocation } from 'react-router-dom';
 import Header from './components/header/header';
@@ -9,13 +9,14 @@ import Details from './page/details';
 
 import './styles.css';
 
+
 const App: FC = () => {
   const location = useLocation();
 
   return (
     <>
       <Header />
-      <Suspense fallback={<div>Loading...</div>}>
+      {/* <Suspense fallback={<div>Loading...</div>}> */}
         <TransitionGroup>
           <CSSTransition timeout={300} classNames="fade" key={location.key} unmountOnExit>
             <Switch location={location}>
@@ -28,7 +29,7 @@ const App: FC = () => {
             </Switch>
           </CSSTransition>
         </TransitionGroup>
-      </Suspense>
+      {/* </Suspense> */}
     </>
   );
 };

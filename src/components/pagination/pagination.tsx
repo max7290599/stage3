@@ -1,4 +1,4 @@
-import { ChangeEvent, FC } from 'react';
+import React, { ChangeEvent, FC } from 'react';
 import { useDispatch } from 'react-redux';
 import { PaginationProps } from '../../models/props';
 import { getParamNews } from '../../redux/action';

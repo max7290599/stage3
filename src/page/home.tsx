@@ -1,5 +1,5 @@
 import { AxiosResponse } from 'axios';
-import { FC } from 'react';
+import React, { FC } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import axios from '../server/api';
 import ArticlesField from '../components/articles-field/articles-field';
